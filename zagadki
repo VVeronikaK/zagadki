@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+    <title>JS innerHTML</title>
+<script>
+    function z1()
+    {
+        document.getElementById("z1").innerHTML="żonkill";
+    }
+    function z2()
+    {
+        document.getElementById("z1").innerHTML="Tu znajdziesz odpowiedź";
+    }
+    function z3()
+    {
+        document.getElementById("z3").innerHTML="przestawiają meble w pokoju";
+    }   
+    function z4()
+    {
+        document.getElementById("z3").innerHTML="Tu znajdziesz odpowiedź";
+    }
+    function z5()
+    {
+        document.getElementById("z5").innerHTML="zasłona";
+    }   
+    function z6()
+    {
+        document.getElementById("z5").innerHTML="Tu znajdziesz odpowiedź";
+    }
+    function z7()
+    {
+        document.getElementById("z7").innerHTML="Trumną";
+    }   
+    function z8()
+    {
+        document.getElementById("z7").innerHTML="Tu znajdziesz odpowiedź";
+    }
+    function z7()
+    {
+        document.getElementById("z7").innerHTML="Trumną";
+    }   
+    function z8()
+    {
+        document.getElementById("z7").innerHTML="Tu znajdziesz odpowiedź";
+    }
+    function z9()
+    {
+        document.getElementById("z9").innerHTML="mały czerwony trujkąt ";
+    }   
+    function z10()
+    {
+        document.getElementById("z9").innerHTML="Tu znajdziesz odpowiedź";
+    }
+</script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body> 
+
+<div class="center">
+    <h1>Zagadki logiczne:</h1>
+
+        <h3>
+            Jak sie nazywa kwiat, który zabił żonę
+        </h3>
+            <input type="button" value="zobacz odpowiedź" onclick="z1()">
+        </br></br>
+        <h4><div id="z1">Tu znajdziesz odpowiedź</div></h4>
+        </br>
+        </br>
+        <input type="button" value="ukryj odpowiedź" onclick="z2()">
+
+
+        <h3>
+            Jak rodzice karają niewidome dziecko?
+        </h3>
+        <input type="button" value="zobacz odpowiedź" onclick="z3()">
+        <br></br>
+        <h4><div id="z3">Tu znajdziesz odpowiedź</div></h4>
+        <br>
+        <br>
+        <input type="button" value="ukryj odpowiedź" onclick="z4()">
+
+
+        <h3>
+            Jak się nazywa przesolona firana?
+        </h3>
+        <input type="button" value="zobacz odpowiedź" onclick="z5()">
+        <br></br>
+        <h4><div id="z5">Tu znajdziesz odpowiedź</div></h4>
+        <br>
+        <br>
+        <input type="button" value="ukryj odpowiedź" onclick="z6()">
+
+
+        <h3>
+            Ten, kto mnie tworzy, nie potrzebuje mnie, kiedy to robi. Ten, który mnie kupuje, nie potrzebuje mnie dla siebie. Ten, kto mnie użyje, nie będzie o tym wiedział. Czym jestem?
+        </h3>
+        <input type="button" value="zobacz odpowiedź" onclick="z7()">
+        <br></br>
+        <h4><div id="z7">Tu znajdziesz odpowiedź</div></h4>
+        <br>
+        <br>
+        <input type="button" value="ukryj odpowiedź" onclick="z8()">
+
+
+        <h3>
+            Co jest: małe, czerwone i trójkątne?
+        </h3>
+        <input type="button" value="zobacz odpowiedź" onclick="z9()">
+        <br></br>
+        <h4><div id="z9">Tu znajdziesz odpowiedź</div></h4>
+        <br>
+        <br>
+        <input type="button" value="ukryj odpowiedź" onclick="z10()">
+</div>
+
+</body>
